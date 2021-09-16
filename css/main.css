@@ -110,7 +110,7 @@ body {
 }
 
 #bg-white {
-    padding-top: 10px;
+    height: 100px;
     max-width: 1920px;
     background-color: #FFFFFF;
 }
@@ -225,11 +225,13 @@ h4 {
 
 .img-back {
   margin-top: 32px;
+  margin-left: 10px;
 }
 
 
 .img-p-bar {
     padding-top: 80px;
+    width: 442px;
 }
 
 
@@ -270,6 +272,11 @@ block-qwes --------------*/
     
 }
 
+.back {
+   width: 282px;
+   height: 63px;
+}
+
 
 
 /* thanks */
@@ -296,9 +303,7 @@ block-qwes --------------*/
     line-height: 37px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #000000;
-   
-    
+    color: #000000;    
 }
 
 
@@ -358,10 +363,6 @@ block-qwes --------------*/
 }
 
 
-.title-one {
-
-}
-
 .title2 {
     min-width: none;
 }
@@ -374,16 +375,12 @@ block-qwes --------------*/
     line-height: 29px;
     text-align: center;
     text-decoration-line: underline;
-    margin-bottom: 145px;
-   
-   
+    margin-bottom: 145px;  
 }
 
 #btn1 {
     margin-bottom: 0;
 }
-
-
 
 /* last */
 
@@ -411,7 +408,6 @@ block-qwes --------------*/
 #pdf {
     margin-top: 50px;
     margin-bottom: 20px;
-    
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -457,7 +453,6 @@ block-qwes --------------*/
     box-shadow: 0px 10px 30px rgba(0, 33, 205, 0.25);
     border-radius: 37px;
     border: 3px solid #0021CD;
-    max-width: 249px;
     height: 63px; 
     display: flex;  
     justify-content: center;
@@ -484,6 +479,8 @@ block-qwes --------------*/
     bottom: 172px;
     position: relative;    
 }
+
+
 
 .ton {
     font-family: 'Montserrat', sans-serif;
@@ -514,6 +511,10 @@ block-qwes --------------*/
     bottom: 145px;
 }
 
+#btn4 {
+    font-size: 24px; 
+}
+
 
 #exampleCheck1 {
     border-radius: 1.25em;
@@ -528,6 +529,15 @@ block-qwes --------------*/
 
 .title-one {
     margin-top: 100px;
+}
+
+.footguiz {
+    margin-top: 200px;
+}
+
+
+.foot-last {
+    margin-top: 10px;
 }
 
 
@@ -552,7 +562,7 @@ body {
 .img-p-bar {
     position: relative;
     bottom: 40px;
-    right: 6px;
+    left: 95px;
     width: 300px;
 }
 
@@ -574,9 +584,7 @@ body {
 }
 
 /* thanks--- */
-.fon-test {
-    height: 100px;
-}
+
 
 .fon-test p{
     font-size: 16px;
@@ -595,7 +603,7 @@ body {
 }
 
 .bg-white {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 20px;
     width: 100%;
     background-color: #FFFFFF;
@@ -636,12 +644,24 @@ body {
     width: 360px;
 }
 
+#btn1 {
+    margin-bottom: 50px;
+}
+
 
 #progress-bar {
     text-decoration: none;
     background: none;  
     top: 330px;
     position: relative;   
+}
+
+
+
+#file {
+    background: radial-gradient(100% 100% at 50% 100%, #2B96EA 0%, #0021CD 100%);
+    box-shadow: 0px 10px 30px rgba(0, 33, 205, 0.25);
+    border-radius: 37px;
 }
 
 #inp {
@@ -658,6 +678,20 @@ body {
 .title {
     margin-top: 90px;
 }
+.back {
+    position: relative;
+    right: 60px;
+}
+
+.footguiz {
+    margin-top: 0px;
+}
+
+
+.foot-last {
+    margin-top: 0px;
+}
+ 
 
    
 }
@@ -690,19 +724,30 @@ body {
 }
 
 #foot {   
-    padding: 10px 0;    
-} 
+    height: 100px;    
+}
+
+#btn1 {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
 
        
 
 #inp {
-    width: 360px;
+    width: 281px;
 }
 
 
+#btn4 a {
+    font-size: 23px;
+  
+}
+
 
 #btn4 {
-     margin-left: 0;
+    font-size: 23px;
+    margin-left: 0;
 }
 
 #adress {
@@ -755,6 +800,13 @@ body {
     left: 2px;
 }
 
+.img-p-bar {
+    position: relative;
+    bottom: 40px;
+    left: 2px;
+    width: 300px;
+}
+
 .fonm p{
     position: relative;
     top: 190px;
@@ -764,14 +816,31 @@ body {
    
 }
 
+.back {
+   position: relative;
+   right: 26px;
+   bottom: 20px;
+}
+
 #btn-w {
     margin-bottom: 20px;
 }
 
-#bg-white {
-    height: 150px;
-    
+.text-center {
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-bottom: 0;
 }
+
+.footguiz {
+    margin-top: 0px;
+}
+
+
+.foot-last {
+    margin-top: 0px;
+}
+ 
    
 }
 
